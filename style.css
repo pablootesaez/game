@@ -1,5 +1,35 @@
 canvas {
   border-style: solid;
-  border-color: black;
+  border-color: transparent;
   border-width: 1px;
+}
+
+.arrow-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+
+.playButton {
+  background: white;
+  border-color: darkblue;
+  border-style: outset;
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  line-height: 30px;
+  color: darkblue;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 }
