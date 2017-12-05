@@ -3,7 +3,7 @@ function Rectangle() {
   this.y = 0;
   this.height = canvas.height;
   this.width = canvas.width;
-  this.color = "yellow";
+  this.color = "yellow"; 
 }
 
 Rectangle.prototype.draw = function() {
