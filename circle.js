@@ -30,3 +30,8 @@ Circle.prototype.positioner = function(i, j) {
     this.x = this.radius + this.radius * 2 * i + (horizontalSpace / (numColumns + 1)) * (i + 1);
     this.y = this.radius + this.radius * 2 * (numLines - j - 1) + (verticalSpace / (numLines + 1)) * (numLines - j);
 };
+
+Circle.prototype.circleReseter = function(i, j) {
+    this.color = "white";
+    this.status = "empty";
+};
